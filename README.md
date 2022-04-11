@@ -1,100 +1,153 @@
-# App Album Photo
+## Teste programação Jurid
+ 
+O teste consiste em "Criar um APP com Django onde irá integrar o Storage do Django com o S3."
+* Efetuado a criação de um APP Album de Foto, onde é possível registrar usuários para login. E na parte funcional é possível efetuar o upload das imagens e criar categorias para melhor ordenação tanto no front end como no back end.
+ 
+ 
+## Technology 
+ 
+Here are the technologies used in this project.
+ 
+* Django version 4.0.3
+* Python 3.10 x64
 
-O app consiste em realizar a integração do Storage do Django com o S3.
-Contudo, foi efetuado a criação de um album de foto. 
+ 
+ 
+## Services Used
+ 
+* Github
+* Amazon S3
+ 
+ 
+## Ruby Gems
 
-## 🚀 Começando
+* asgiref==3.5.0
+* boto3==1.21.37
+* botocore==1.24.37
+* Django==4.0.3
+* django-storages==1.12.3
+* jmespath==1.0.0
+* Pillow==9.1.0
+* python-dateutil==2.8.2
+* s3transfer==0.5.2
+* six==1.16.0
+* sqlparse==0.4.2
+* tzdata==2022.1
+* urllib3==1.26.9
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+ 
+## Getting started
+ 
+* To install gems:
 
-Consulte **Implantação** para saber como implantar o projeto.
+>*    $ python -m venv venv
+>*    $ .\venv\Scripts\Activate.bat
+>*    $ django-admin startproject photoshare
+>*    $ python manage.py startapp fotos
+>*    $ pip install boto3 
+>*    $ pip install django pillow
+>*    $ pip install django-storages 
+>*    $ pip install jmespath
+>*    python manage.py createsuperuser
+>*    python manage.py collectstatic
 
-### 📋 Pré-requisitos
+* The bank
+>     db.sqlite3
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+* To run the project:
+>*    $ python manage.py runserver
+ 
+## How to use
+ 
+## 1 - Login/Register page.
 
-```
-Dar exemplos
-```
+![Login_page_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_1.png)
 
-### 🔧 Instalação
+## 2 - When you access, App "Photo".
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_2.png)
 
-Diga como essa etapa será:
+## 3 - Example Categories "Paisagens".
 
-```
-Dar exemplos
-```
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_3.png)
 
-E repita:
+## 4 - Example Categories "Animais".
 
-```
-Até finalizar
-```
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_4.png)
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+## 5 - How to add photo.
 
-## ⚙️ Executando os testes
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_5.png)
 
-Explicar como executar os testes automatizados para este sistema.
+## 6 - Options for submit.
 
-### 🔩 Analise os testes de ponta a ponta
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_6.png)
 
-Explique que eles verificam esses testes e porquê.
+## 7 - Bucket AWS S3 - Storage.
 
-```
-Dar exemplos
-```
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_7.png)
 
-### ⌨️ E testes de estilo de codificação
+## 8 - Folders Storage.
 
-Explique que eles verificam esses testes e porquê.
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_8.png)
 
-```
-Dar exemplos
-```
+## 9 - User IAM - Acess bucket S3.
 
-## 📦 Desenvolvimento
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_9.png)
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+## 10 - Example URL fix AWS S3 - storage.
 
-## 🛠️ Construído com
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_10.png)
 
-Mencione as ferramentas que você usou para criar seu projeto
+## 11 - Control Panel Admin - Django.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_11.png)
 
-## 🖇️ Colaborando
+## 12 - Django Admin - App Photos Backend "Categories".
 
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_12.png)
 
-## 📌 Versão
+## 13 - Django Admin - App Photos Backend "Photos".
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_13.png)
 
-## ✒️ Autores
+## 14 - Django Admin - Add Photo select Catogory - Backend.
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_14.png)
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+## 15 - Panel for Register Users account - APP Photos. 1/2
 
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_15.png)
 
-## 📄 Licença
+## 16 - Panel for Register Users account - APP Photos. 2/2
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_16.png)
+ 
+ 
+## Features
+ 
+  - Django-storage integrated with AWS S3
+ 
+ 
+## Links
+ 
+  - Repository: https://github.com/itagabriel/app_photo_album_django_s3
+    - In case of sensitive bugs like security vulnerabilities, please contact
+      YOUR EMAIL directly instead of using issue tracker. We value your effort
+      to improve the security and privacy of this project!
+ 
+ 
+## Versioning
+ 
+1.0.0.0
 
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺 
-* Obrigado publicamente 🤓.
-* etc.
-
-
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+## Referencies
+ 
+* (https://www.youtube.com/watch?v=sSquD2u5Ie0)
+ 
+## Authors
+ 
+* **Gabriel Ita**: @itagabriel (https://github.com/itagabriel)
+ 
+Please follow github and join us!
+Thanks to visiting me and good coding!
