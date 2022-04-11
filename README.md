@@ -4,7 +4,7 @@ O teste consiste em "Criar um APP com Django onde irá integrar o Storage do Dja
 * Efetuado a criação de um APP Album de Foto, onde é possível registrar usuários para login. E na parte funcional é possível efetuar o upload das imagens e criar categorias para melhor ordenação tanto no front end como no back end.
  
  
-## Technology 
+## 🚀 Technology 
  
 Here are the technologies used in this project.
  
@@ -13,13 +13,13 @@ Here are the technologies used in this project.
 
  
  
-## Services Used
+## 📋 Services Used
  
 * Github
 * Amazon S3
  
  
-## Ruby Gems
+## 🔧 Ruby Gems
 
 * asgiref==3.5.0
 * boto3==1.21.37
@@ -36,7 +36,7 @@ Here are the technologies used in this project.
 * urllib3==1.26.9
 
  
-## Getting started
+## ⚙️ Getting started
  
 * To install gems:
 
@@ -51,13 +51,13 @@ Here are the technologies used in this project.
 >*    python manage.py createsuperuser
 >*    python manage.py collectstatic
 
-* The bank
+* ⌨️ The bank
 >     db.sqlite3
 
-* To run the project:
+* 📦 To run the project:
 >*    $ python manage.py runserver
  
-## How to use
+## 🛠️ How to use
  
 ## 1 - Login/Register page.
 
@@ -124,12 +124,12 @@ Here are the technologies used in this project.
 ![Homepage_image](https://github.com/itagabriel/app_photo_album_django_s3/blob/master/public/project2/Screenshot_16.png)
  
  
-## Features
+## 🖇️ Features
  
   - Django-storage integrated with AWS S3
  
  
-## Links
+## 📄 Links
  
   - Repository: https://github.com/itagabriel/app_photo_album_django_s3
     - In case of sensitive bugs like security vulnerabilities, please contact
@@ -141,11 +141,11 @@ Here are the technologies used in this project.
  
 1.0.0.0
 
-## Referencies
+## 🎁 Referencies
  
 * (https://www.youtube.com/watch?v=sSquD2u5Ie0)
  
-## Authors
+## 🎁 Authors
  
 * **Gabriel Ita**: @itagabriel (https://github.com/itagabriel)
  
